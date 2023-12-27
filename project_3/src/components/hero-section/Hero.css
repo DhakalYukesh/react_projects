@@ -1,0 +1,127 @@
+/* Hero Innerbox1 Styles */
+
+.logo {
+    font-size: 32px;
+    color: white;
+}
+
+.logo span {
+    color: #6a6a6a;
+}
+
+.hero {
+    background-color: #24354d;
+    height: 620px;
+}
+
+.hero__innerbox1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+}
+
+.hero__innerbox1-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero__innerbox1-navbar ul {
+    display: flex;
+    gap: 40px;
+}
+
+.hero__innerbox1-navbar ul li {
+    color: #6a6a6a;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.hero__innerbox1-navbar ul li a {
+    color: #c0c0c0;
+}
+
+.hero__innerbox1-navbar .navbar-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    padding-top: 4px;
+}
+
+/* Hero Innerbox2 Styles */
+.hero__innerbox2 {
+    display: flex;
+    height: calc(100% - 15%);
+}
+
+.hero__innerbox2-box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.hero__innerbox2-box1 h1 {
+    font-size: 54px;
+    line-height: 4rem;
+    color: white;
+}
+
+.hero__innerbox2-box1 p {
+    color: #c0c0c0;
+    font-size: 14px;
+    line-height: 28px;
+    width: 550px;
+}
+
+.hero__innerbox2-box1__buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.primary-btn {
+    border: none;
+    background-color: #f9bf29;
+    color: #2f2f2f;
+    font-size: 16px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 550;
+}
+
+.secondary-btn {
+    border: 2px solid #6a6a6a;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 550;
+}
+
+.hero__innerbox2-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__innerbox2-box2 img {
+    width: 800px;
+    z-index: 1;
+}
+
+.hero__innerbox2-box2::after {
+    content: '';
+    position: absolute;
+    width: 255px;
+    height: 217px;
+    background-image: url(../../../public/dots-light.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* right: -100px; */
+    transform: translate(270px, -110px);
+    z-index: 0;
+}
