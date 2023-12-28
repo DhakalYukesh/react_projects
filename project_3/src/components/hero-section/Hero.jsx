@@ -58,7 +58,7 @@ function Hero() {
           </div>
         </div>
         <div className="hero__innerbox2-box2">
-          <img src="../public/Images/heroImage.png" alt="Interior Design" />
+          <img src="/Images/heroImage.png" alt="Interior Design" />
         </div>
       </div>
     </div>

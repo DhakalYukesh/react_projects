@@ -70,13 +70,6 @@
     color: white;
 }
 
-.hero__innerbox2-box1 p {
-    color: #c0c0c0;
-    font-size: 14px;
-    line-height: 28px;
-    width: 550px;
-}
-
 .hero__innerbox2-box1__buttons {
     display: flex;
     gap: 10px;
@@ -118,7 +111,7 @@
     position: absolute;
     width: 255px;
     height: 217px;
-    background-image: url(../../../public/dots-light.svg);
+    background-image: url(/dots-light.svg);
     background-size: contain;
     background-repeat: no-repeat;
     /* right: -100px; */

@@ -26,3 +26,10 @@ a {
     text-decoration: none;
     display: inline-block;
 }
+
+p {
+    color: #c0c0c0;
+    font-size: 14px;
+    line-height: 28px;
+    width: 550px;
+}
