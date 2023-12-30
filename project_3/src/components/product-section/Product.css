@@ -1,9 +1,10 @@
 .product {
-    background-color: white;
+    background-color: #EFF2F1;
     height: 690px;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border-bottom: 1px solid rgb(229, 229, 229); */
 }
 
 .product__innerbox {
